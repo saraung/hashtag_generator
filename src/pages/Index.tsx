@@ -25,7 +25,7 @@ const Index = () => {
       const base64Image = reader.result;
 
       try {
-        const res = await fetch("http://localhost:7860/generate", {
+        const res = await fetch("https://saraung-hashtag-generator.hf.space/generate", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
